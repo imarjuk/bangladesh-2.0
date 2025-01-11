@@ -192,14 +192,15 @@ img {
     display: flex;
     /* justify-content: center; */
     margin: 20px 15px;
-    padding: 30px;
+    padding: 50px;
     border-radius: 20px;
     
 }
 
 .pic-sub{
-    margin: 20px 15px;
-    padding: 30px;
+    margin-top: 20px;
+    margin-right:50px;
+    padding: 20px;
     text-align: justify;
     /* border-radius: 20px; */
 }
@@ -207,3 +208,19 @@ img {
 .new-sub-title{
     font-size: 26px;
 }
+
+.pic-part-2{
+    display: flex;
+    /* justify-content: center; */
+    margin: 20px 15px;
+    padding: 50px;
+    border-radius: 20px;
+} 
+    
+.pic-sub-2{
+    margin-top: 20px;
+    margin-left:50px;
+    padding: 20px;
+    text-align: justify;
+    /* border-radius: 20px; */
+}   
