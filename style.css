@@ -8,14 +8,14 @@
 
 /* nav style */
 nav{
-    margin: 24px 160px;
+    margin: 20px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header-title{
-    font-size: 32px;
+    font-size: 34px;
     font-weight: bold;
     color: #0E0E0E;
 }
@@ -37,34 +37,37 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: #C6E4D6;
-    padding: 60px;
+    padding: 50px;
     border-radius: 24px;
-    margin: 0 160px;
+    margin: 0 80px;
 
 }
 
 .banner-content{
-    max-width: 622px;
+    max-width: 640px;
+    margin-top: 50px;
+    
 }
 .banner-head{
     font-size: 24px;
     font-weight: 600;
     color: #0E0E0E;
     opacity: 50%;
+    /* margin-top: 30px; */
     margin-bottom: 16px;
 }
 
 .banner-2nd-head{
-    font-size: 56px;
+    font-size: 44px;
     font-weight: bold;
     color: #0E0E0E;
-    /* width: 326px; */
+    width: 480px;
     margin:auto;
 }
 
 .banner-btn{
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 600;
     color: white;
     background-color: #006A50;
     border: none;
@@ -76,4 +79,63 @@ nav{
 .banner-pic{
     max-width: 475px;
 
+}
+
+/* section style */
+
+.vision{
+    margin: 20px 80px;
+}
+.vision-main-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.vision-des{
+    font-size: 12px;
+    opacity: 70%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+
+/* vision style */
+
+.vision-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.vision-sub-title {
+    padding: 30px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 14px;
+    height: auto;
+  
+}
+.vision-sub-title-2{
+    padding: 30px;
+    background-color: #C6E4D6;
+    border-radius: 14px;
+}
+.vision-sub-title-3{
+    padding: 30px;
+    background-color: #F7EBCF;
+    border-radius: 14px;
+}    
+
+.vision-title{
+    font-size: 22px;
+}
+
+.vision-title-des{
+    font-size: 14px;
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+.vision-btn{
+    font-size: 16px;
+    color: white;
 }
